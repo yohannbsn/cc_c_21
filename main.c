@@ -41,4 +41,3 @@ if (p_hand <= g->broker) {
  if (p_hand >= g->broker && p_hand < 21 )
  player_win(g); // Le joueur gagne 
  }
-}
