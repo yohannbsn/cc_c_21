@@ -30,7 +30,7 @@ if (p_hand > 21) {
  player_breakthrough(g); // Le joueur dépasse 21
 }
 
-if (p_hand <= g->brocker) {
+if (p_hand <= g->broker) {
   player_lost(g); // Le joueur perd
  }
 
@@ -38,7 +38,7 @@ if (p_hand <= g->brocker) {
   player_jackpot(g); // Le joueur fait 21
  }
 
- if (p_hand >= g->brocker && p_hand < 21 )
+ if (p_hand >= g->broker && p_hand < 21 )
  player_win(g); // Le joueur gagne 
  }
 }
