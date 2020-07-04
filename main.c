@@ -5,9 +5,8 @@
 int main()
 {
     t_game * g = game_init();
-    t_game * g2 = game_init();
 
-    game_loop(g, g2);
+    game_loop(g);
     return 0;
 }
 
